@@ -1,0 +1,1652 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NonTaxes - Estrategia de Crecimiento Personalizada | Copy Estratega</title>
+
+  <meta property="og:title" content="NonTaxes - Estrategia de Crecimiento Personalizada">
+  <meta property="og:description" content="Auditoria y estrategia de crecimiento personalizada para NonTaxes, construida por Copy Estratega.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png">
+  <meta property="og:url" content="https://danigdecelis.github.io/nontaxes-strategy/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="NonTaxes - Estrategia de Crecimiento Personalizada">
+  <meta name="twitter:description" content="Auditoria y estrategia de crecimiento personalizada para NonTaxes, construida por Copy Estratega.">
+
+  <link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/ENnY1cQr8yb82cqirDaLRejSItf1/uploads/1759866240739-LeadLinker%20Logo%20Favicon%20.png">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:         #C9A84C;
+      --gold-dark:    #A8893A;
+      --gold-light:   rgba(201, 168, 76, 0.08);
+      --gold-border:  rgba(201, 168, 76, 0.2);
+      --dark:         #0A0A0A;
+      --dark-mid:     #1A1A1A;
+      --body-text:    #555555;
+      --muted:        #999999;
+      --off-white:    #F8F6F0;
+      --white:        #FFFFFF;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--body-text);
+      background: var(--white);
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 200;
+      background: rgba(10, 10, 10, 0.97);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+    }
+    .nav-logo img { height: 48px; }
+    .nav-cta {
+      display: inline-block;
+      padding: 10px 22px;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      background: transparent;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .nav-cta:hover { background: var(--gold); color: var(--dark); }
+
+    /* CONTAINER */
+    .container { max-width: 800px; margin: 0 auto; }
+
+    /* CARD BASE */
+    .card {
+      padding: 80px 40px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .card.dark {
+      background: var(--dark);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .card.off { background: var(--off-white); }
+    .card.white { background: var(--white); }
+
+    /* TYPOGRAPHY */
+    .section-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.5px;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 4vw, 38px);
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.3px;
+    }
+    .card.dark h2 { color: var(--white); }
+    .card.white h2, .card.off h2 { color: var(--dark-mid); }
+    h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .card.dark h3 { color: var(--white); }
+    .card.white h3, .card.off h3 { color: var(--dark-mid); }
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+    .card.dark p { color: rgba(255,255,255,0.7); }
+    .card.white p, .card.off p { color: var(--body-text); }
+
+    hr.gold {
+      border: none;
+      border-top: 1px solid var(--gold-border);
+      margin: 40px 0;
+    }
+
+    /* CARD 1: HERO */
+    .hero-card {
+      padding-top: 140px;
+    }
+    .hero-alert {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--dark);
+      font-size: 18px;
+      font-weight: 700;
+      padding: 18px 40px;
+      border-radius: 4px;
+      margin-top: 40px;
+      text-align: center;
+      width: 100%;
+    }
+    .video-placeholder {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      height: 420px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 32px 0;
+      color: rgba(255,255,255,0.3);
+      font-size: 14px;
+      font-family: 'Inter', sans-serif;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .video-placeholder-icon { font-size: 48px; opacity: 0.5; }
+
+    /* CARD 2: INTRO */
+    .intro-statement {
+      font-size: 20px;
+      font-style: italic;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.85);
+      border-left: 3px solid var(--gold);
+      padding-left: 28px;
+    }
+
+    /* CARD 3: TOC */
+    .toc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 48px;
+    }
+    .toc-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--gold-border);
+      border-radius: 8px;
+      padding: 20px 22px;
+    }
+    .toc-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--gold);
+      flex-shrink: 0;
+      line-height: 1;
+      margin-top: 2px;
+    }
+    .toc-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .toc-desc {
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+      line-height: 1.4;
+    }
+    .toc-item-wide {
+      grid-column: span 2;
+    }
+
+    /* CARD 4: AUDIT INTRO */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-top: 48px;
+    }
+    .col-box {
+      background: var(--off-white);
+      border-radius: 10px;
+      padding: 32px;
+    }
+    .col-box-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+      display: block;
+    }
+    .col-box h3 { font-size: 18px; color: var(--dark-mid); margin-bottom: 12px; }
+    .col-box p { font-size: 14px; color: var(--body-text); line-height: 1.65; }
+
+    /* CARDS 5-7: FINDINGS */
+    .url-tag {
+      display: inline-block;
+      background: rgba(201,168,76,0.08);
+      border: 1px solid var(--gold-border);
+      border-radius: 4px;
+      padding: 8px 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: var(--gold);
+      margin-bottom: 36px;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .findings-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .finding-card {
+      background: var(--off-white);
+      border-radius: 10px;
+      padding: 24px;
+      border-left: 3px solid var(--gold);
+    }
+    h4.finding-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--dark-mid);
+      margin-bottom: 8px;
+    }
+    .finding-card p {
+      font-size: 14px;
+      color: var(--body-text);
+      line-height: 1.6;
+    }
+
+    /* CARD 8: TRANSITION */
+    .audit-complete {
+      text-align: center;
+      padding: 80px 40px;
+    }
+    .audit-badge {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--dark);
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 10px 24px;
+      border-radius: 4px;
+      margin-bottom: 40px;
+    }
+    .audit-complete h2 { color: var(--white); margin-bottom: 20px; }
+    .audit-complete p { color: rgba(255,255,255,0.65); max-width: 520px; margin: 0 auto; }
+
+    /* CARDS 9-11: PROBLEMS */
+    .journey {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin: 36px 0;
+      position: relative;
+    }
+    .journey-step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      padding-bottom: 24px;
+      position: relative;
+    }
+    .journey-step:last-child { padding-bottom: 0; }
+    .journey-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      background: var(--dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--gold);
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+    }
+    .journey-line {
+      position: absolute;
+      left: 17px;
+      top: 36px;
+      bottom: 0;
+      width: 2px;
+      background: var(--gold-border);
+    }
+    .journey-step:last-child .journey-line { display: none; }
+    .journey-content { padding-top: 6px; }
+    .journey-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .journey-desc {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.55;
+    }
+
+    .closing-line {
+      font-style: italic;
+      font-size: 15px;
+      color: rgba(255,255,255,0.55);
+      border-top: 1px solid var(--gold-border);
+      padding-top: 24px;
+      margin-top: 8px;
+    }
+
+    .support-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 36px 0;
+    }
+    .support-item {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .support-item h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .support-item p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.55; }
+
+    /* CARD 12: NUMBERS */
+    .numbers-intro {
+      font-size: 16px;
+      color: rgba(255,255,255,0.65);
+      margin-bottom: 56px;
+      line-height: 1.7;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .stat-block {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      padding: 36px 28px;
+    }
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 52px;
+      font-weight: 800;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-label-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--white);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+    .stat-explain { font-size: 14px; color: rgba(255,255,255,0.55); line-height: 1.55; }
+    .numbers-closing {
+      margin-top: 32px;
+      font-style: italic;
+      color: rgba(255,255,255,0.5);
+      font-size: 15px;
+      border-top: 1px solid var(--gold-border);
+      padding-top: 24px;
+    }
+
+    /* CARD 13: LEAD MAGNETS */
+    .magnets-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 40px;
+    }
+    .magnet-card {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      padding: 28px;
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 10px;
+      background: var(--white);
+    }
+    .magnet-card.featured {
+      background: var(--gold-light);
+      border-color: var(--gold-border);
+    }
+    .magnet-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--gold);
+      color: var(--dark);
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .magnet-card:not(.featured) .magnet-badge {
+      background: transparent;
+      border: 2px solid var(--gold);
+      color: var(--gold);
+    }
+    .magnet-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--dark-mid);
+      margin-bottom: 6px;
+      font-family: 'Inter', sans-serif;
+    }
+    .magnet-desc { font-size: 14px; color: var(--body-text); line-height: 1.6; }
+
+    /* CARD 14: EXAMPLE PAGE PREVIEW */
+    .example-card {
+      display: block;
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      overflow: hidden;
+      text-decoration: none;
+      margin-top: 40px;
+      transition: all 0.25s;
+      cursor: pointer;
+    }
+    .example-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 8px 32px rgba(201, 168, 76, 0.15);
+      transform: translateY(-4px);
+    }
+    .example-preview {
+      background: #0C1115;
+      padding: 48px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .example-preview::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at 70% 50%, rgba(47, 84, 150, 0.12) 0%, transparent 60%);
+    }
+    .preview-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #A28A60;
+      margin-bottom: 16px;
+      display: block;
+      position: relative;
+    }
+    .preview-headline {
+      font-family: 'Josefin Sans', 'Inter', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      position: relative;
+    }
+    .preview-sub {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 24px;
+      position: relative;
+    }
+    .preview-cta {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #A28A60;
+      color: #0C1115;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 4px;
+      position: relative;
+    }
+    .example-bar {
+      background: var(--off-white);
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .example-url {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .example-cta-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gold);
+    }
+
+    .what-changed {
+      margin-top: 36px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .changed-item {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .check-circle {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .check-circle svg { width: 12px; height: 12px; }
+    .changed-item p { font-size: 14px; color: var(--body-text); font-weight: 500; }
+
+    .funnel-flow {
+      margin-top: 36px;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 12px;
+      align-items: center;
+    }
+    .flow-box {
+      background: var(--off-white);
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 13px;
+      color: var(--body-text);
+      line-height: 1.4;
+    }
+    .flow-box.new-flow {
+      background: var(--gold-light);
+      border-color: var(--gold-border);
+    }
+    .flow-box .flow-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .flow-box.new-flow .flow-label { color: var(--gold); }
+    .flow-arrow { font-size: 20px; color: var(--gold); text-align: center; }
+
+    /* CARD 15: WHAT WE BUILD */
+    .builds-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 48px;
+    }
+    .build-item {
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .build-header {
+      background: var(--gold-light);
+      border-bottom: 1px solid var(--gold-border);
+      padding: 20px 28px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .build-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .build-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--dark-mid);
+    }
+    .build-body {
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .build-point {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .build-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold);
+      flex-shrink: 0;
+      margin-top: 9px;
+    }
+    .build-point p { font-size: 14px; color: var(--body-text); line-height: 1.55; }
+
+    /* CARD 16: GUARANTEE */
+    .guarantee-box {
+      background: var(--gold-light);
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      padding: 40px;
+      margin-bottom: 56px;
+      text-align: center;
+    }
+    .guarantee-statement {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      font-style: italic;
+      color: var(--dark-mid);
+      line-height: 1.4;
+    }
+    .steps-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .guarantee-step {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+      padding: 28px 32px;
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      background: var(--white);
+    }
+    .guarantee-step.alt {
+      background: var(--off-white);
+    }
+    .step-who {
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .step-num-circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      background: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+    .step-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--dark-mid);
+      margin-bottom: 4px;
+    }
+    .step-desc { font-size: 14px; color: var(--body-text); line-height: 1.55; }
+
+    /* CARDS 17 & 20: CTA */
+    .cta-section {
+      border-top: 1px solid rgba(201, 168, 76, 0.3);
+    }
+    .cta-section h2 { color: var(--white); margin-bottom: 48px; }
+    .cta-options {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+    .cta-option { text-align: center; }
+    .cta-icon { font-size: 28px; margin-bottom: 12px; }
+    .cta-option-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .cta-option-desc {
+      font-size: 14px;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.5;
+    }
+    .cta-divider {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: rgba(255,255,255,0.2);
+      text-align: center;
+    }
+    .cta-calendly-btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 14px 28px;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      background: transparent;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+    .cta-calendly-btn:hover { background: var(--gold); color: var(--dark); }
+
+    /* CARD 18: FAQ */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 48px;
+    }
+    .faq-item {
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .faq-q {
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      padding: 22px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--dark-mid);
+      gap: 16px;
+    }
+    .faq-q:hover { color: var(--gold); }
+    .faq-arrow { font-size: 18px; color: var(--gold); flex-shrink: 0; transition: transform 0.2s; }
+    .faq-a {
+      display: none;
+      padding: 0 28px 22px;
+      font-size: 14px;
+      color: var(--body-text);
+      line-height: 1.7;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      padding-top: 16px;
+    }
+    .faq-item.open .faq-a { display: block; }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+
+    /* CARD 19: ABOUT */
+    .about-card {
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+      background: var(--off-white);
+      border-radius: 10px;
+      padding: 40px;
+      margin-top: 48px;
+    }
+    .about-photo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .about-name {
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--dark-mid);
+      margin-bottom: 2px;
+    }
+    .about-title-text {
+      font-size: 14px;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .about-contact a {
+      font-size: 13px;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .about-contact a:hover { color: var(--gold); }
+    .about-bio { font-size: 14px; color: var(--body-text); line-height: 1.7; margin-top: 16px; }
+
+    /* FOOTER */
+    footer {
+      background: var(--dark);
+      border-top: 1px solid rgba(201, 168, 76, 0.15);
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    footer img { height: 36px; }
+    footer p { font-size: 13px; color: rgba(255,255,255,0.4); }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav { padding: 0 20px; }
+      .card { padding: 60px 24px; }
+      .audit-complete { padding: 60px 24px; }
+      .toc-grid { grid-template-columns: 1fr; }
+      .toc-item-wide { grid-column: span 1; }
+      .two-col { grid-template-columns: 1fr; gap: 24px; }
+      .findings-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: 1fr; }
+      .what-changed { grid-template-columns: 1fr; }
+      .funnel-flow { grid-template-columns: 1fr; }
+      .flow-arrow { display: none; }
+      .cta-options { grid-template-columns: 1fr; gap: 24px; }
+      .cta-divider { display: none; }
+      .about-card { flex-direction: column; }
+      footer { flex-direction: column; text-align: center; }
+      .support-cols { grid-template-columns: 1fr; }
+      .hero-alert { font-size: 14px; padding: 14px 20px; }
+      .hero-card { padding-top: 100px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="https://danigdecelis.github.io/nontaxes-strategy/" style="text-decoration:none;">
+    <img src="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png" alt="Copy Estratega" style="height:48px;">
+  </a>
+  <button class="nav-cta" onclick="Calendly.initPopupWidget({url:'https://calendly.com/danigdecelis/meeting'});return false;">Reservar Llamada</button>
+</nav>
+
+<!-- CARD 1: HERO -->
+<section class="card dark hero-card">
+  <div class="container">
+    <span class="section-label">Estrategia Personalizada</span>
+    <h1>NonTaxes</h1>
+    <h1 style="color: var(--gold); font-style: italic;">Estrategia de Crecimiento</h1>
+
+    <div class="video-placeholder">
+      <div class="video-placeholder-icon">▶</div>
+      <p>Video de presentacion proximamente</p>
+    </div>
+
+    <div class="hero-alert">🚨 No Te Saltes El Video 🚨</div>
+  </div>
+</section>
+
+<!-- CARD 2: INTRO -->
+<section class="card white">
+  <div class="container">
+    <p class="intro-statement">
+      Este documento fue construido especificamente para NonTaxes. Cada hallazgo, cada recomendacion y cada ejemplo esta basado en tu web real, tu presencia en LinkedIn y tu sistema de captacion actual.
+    </p>
+  </div>
+</section>
+
+<!-- CARD 3: TOC -->
+<section class="card dark">
+  <div class="container">
+    <span class="section-label">En Este Documento</span>
+    <h2>Lo Que Encontraras Aqui</h2>
+
+    <div class="toc-grid">
+      <div class="toc-item">
+        <div class="toc-num">01</div>
+        <div>
+          <div class="toc-title">La Auditoria</div>
+          <div class="toc-desc">Lo que encontramos en tu LinkedIn, tu web y tu sistema de captacion actual</div>
+        </div>
+      </div>
+      <div class="toc-item">
+        <div class="toc-num">02</div>
+        <div>
+          <div class="toc-title">Los Problemas</div>
+          <div class="toc-desc">Lo que te esta costando clientes potenciales ahora mismo</div>
+        </div>
+      </div>
+      <div class="toc-item">
+        <div class="toc-num">03</div>
+        <div>
+          <div class="toc-title">Los Numeros</div>
+          <div class="toc-desc">Lo que representa esa perdida cada mes en terminos concretos</div>
+        </div>
+      </div>
+      <div class="toc-item">
+        <div class="toc-num">04</div>
+        <div>
+          <div class="toc-title">Ideas de Lead Magnet</div>
+          <div class="toc-desc">Propuestas concretas para capturar emails y construir tu pipeline</div>
+        </div>
+      </div>
+      <div class="toc-item">
+        <div class="toc-num">05</div>
+        <div>
+          <div class="toc-title">La Pagina de Ejemplo</div>
+          <div class="toc-desc">Una version ya construida de tu pagina de captacion de leads</div>
+        </div>
+      </div>
+      <div class="toc-item">
+        <div class="toc-num">06</div>
+        <div>
+          <div class="toc-title">Que Mas Construiriamos</div>
+          <div class="toc-desc">El sistema completo detras de la pagina</div>
+        </div>
+      </div>
+      <div class="toc-item toc-item-wide">
+        <div class="toc-num">07</div>
+        <div>
+          <div class="toc-title">Nuestra Oferta y Garantia</div>
+          <div class="toc-desc">Como garantizamos resultados y como funciona exactamente el proceso</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 4: AUDIT INTRO -->
+<section class="card white">
+  <div class="container">
+    <span class="section-label">La Auditoria</span>
+    <h2>Hola Ivan, Soy Daniel</h2>
+
+    <div class="two-col" style="margin-top: 40px;">
+      <div class="col-box">
+        <span class="col-box-label">Quien soy</span>
+        <h3>Fundador de Copy Estratega</h3>
+        <p>Trabajo con consultores, asesores y expertos que ya tienen metodologia, resultados y autoridad, pero que todavia no tienen el sistema digital que convierte esa autoridad en clientes nuevos de forma predecible. Soy abogado de formacion, con experiencia directa en proyectos juridicos y en el mundo crypto y blockchain. Entiendo el sector desde dentro, no desde fuera.</p>
+      </div>
+      <div class="col-box">
+        <span class="col-box-label">Como te encontre</span>
+        <h3>LinkedIn y nontaxes.com</h3>
+        <p>Estuve curioseando tu perfil de LinkedIn y la web de NonTaxes. Despues de analizar lo que teneis, encontre varias cosas que merecen la pena comentar. Lo que ves en este documento es el resultado de ese analisis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 5: LINKEDIN -->
+<section class="card off">
+  <div class="container">
+    <span class="section-label">Paso 1</span>
+    <h2>Tu LinkedIn</h2>
+
+    <a class="url-tag" href="https://www.linkedin.com/in/iv%C3%A1n-lim%C3%B3n-can%C3%B3niga-b10811222/" target="_blank" rel="noopener">linkedin.com/in/ivan-limon-canoniga</a>
+
+    <div class="findings-grid">
+      <div class="finding-card">
+        <h4 class="finding-title">Especializacion clara en un nicho con mucha demanda</h4>
+        <p>Tu perfil posiciona NonTaxes en la interseccion de fiscalidad y criptoactivos, un espacio donde la demanda esta creciendo con fuerza a medida que MiCA y las nuevas obligaciones de la AEAT entran en vigor.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Contenido sobre temas de alta relevancia</h4>
+        <p>Has publicado sobre tokenizacion, regulacion de IA y proteccion de datos. Son exactamente los temas que preocupan a empresas y profesionales que operan en el entorno digital y que buscan asesoria especializada.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Presencia activa sin amplificacion sistematica</h4>
+        <p>Hay contenido publicado, pero sin un sistema detras que lleve ese contenido hasta personas que todavia no te conocen. La autoridad existe. El alcance todavia tiene margen para crecer.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Marca personal visible sin embudo conectado</h4>
+        <p>Tu perfil genera confianza, pero no hay un paso claro desde "veo lo que publicas" hasta "quiero hablar contigo". Ese puente es lo que convierte la visibilidad en conversaciones cualificadas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 6: WEBSITE -->
+<section class="card white">
+  <div class="container">
+    <span class="section-label">Paso 2</span>
+    <h2>Tu Web</h2>
+
+    <a class="url-tag" href="https://nontaxes.com" target="_blank" rel="noopener">nontaxes.com</a>
+
+    <p style="margin-bottom: 32px; color: var(--muted); font-size: 14px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">Lo que esta funcionando:</p>
+    <div class="findings-grid">
+      <div class="finding-card">
+        <h4 class="finding-title">Especializacion clara y diferenciadora</h4>
+        <p>NonTaxes no es una asesoria generica. La combinacion de fiscalidad y criptoactivos os posiciona como especialistas en un nicho donde hay muy pocos referentes con esta profundidad.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Blog activo con temas de maxima actualidad</h4>
+        <p>Publicais sobre MiCA, IA, proteccion de datos y fiscalidad digital. El calendario editorial demuestra que entendeis donde esta la conversacion y os adelantais a ella.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Formulario de newsletter presente</h4>
+        <p>Hay una base de captacion instalada. Eso significa que ya existe la infraestructura minima para empezar a construir una lista de contactos cualificados.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Servicios estructurados en tres areas</h4>
+        <p>La arquitectura de servicios es clara: fiscalidad digital, fiscalidad de empresa y servicios complementarios. Un visitante que llega puede entender rapidamente si sois lo que busca.</p>
+      </div>
+      <div class="finding-card" style="grid-column: span 2;">
+        <h4 class="finding-title">Presencia en multiples canales digitales</h4>
+        <p>Instagram, Twitter y YouTube estan activos o en proceso. Eso indica disposicion a estar presente donde estan los clientes, lo que facilita ampliar el sistema despues.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 7: ADS + TECH -->
+<section class="card off">
+  <div class="container">
+    <span class="section-label">Paso 3</span>
+    <h2>Publicidad y Tecnologia</h2>
+
+    <a class="url-tag" href="https://adstransparency.google.com/?domain=nontaxes.com" target="_blank" rel="noopener">adstransparency.google.com (nontaxes.com)</a>
+
+    <div class="findings-grid">
+      <div class="finding-card">
+        <h4 class="finding-title">Sin actividad publicitaria detectada</h4>
+        <p>La busqueda en Google Ads Transparency devuelve 0 anuncios activos para nontaxes.com. En este momento, toda la captacion depende de trafico organico o referidos directos.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Sin pixeles de seguimiento instalados</h4>
+        <p>No se detectaron pixeles de Facebook, LinkedIn Insight Tag, TikTok ni Google Tag Manager en el source de la web. Esto significa que no hay retargeting posible sobre los visitantes actuales.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Plataforma de email no identificada en el source</h4>
+        <p>Hay un formulario de newsletter activo, pero no se detecto ninguna plataforma de email en el codigo de la web. No es posible confirmar desde el exterior que sistema gestiona los suscriptores.</p>
+      </div>
+      <div class="finding-card">
+        <h4 class="finding-title">Sin analitica de comportamiento detectada</h4>
+        <p>No se identifico Google Analytics, Hotjar ni Microsoft Clarity. Sin metricas de comportamiento instaladas, es dificil saber que hacen los visitantes una vez dentro de la web.</p>
+      </div>
+      <div class="finding-card" style="grid-column: span 2;">
+        <h4 class="finding-title">Unico camino de conversion visible: el formulario de newsletter</h4>
+        <p>No hay CTA directa a consulta en el homepage, ni pagina de reserva de sesion enlazada desde la navegacion principal. El visitante que llega listo para contratar no tiene un camino claro para dar el siguiente paso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 8: TRANSITION -->
+<section class="card dark audit-complete">
+  <div class="container">
+    <div class="audit-badge">Auditoria Completa</div>
+    <h2>Los Problemas</h2>
+    <p>Ahora que sabemos lo que hay, aqui esta lo que esos hallazgos revelan sobre lo que te esta costando clientes potenciales ahora mismo.</p>
+  </div>
+</section>
+
+<!-- CARD 9: PROBLEM 1 -->
+<section class="card dark">
+  <div class="container">
+    <span class="section-label">Problema 1</span>
+    <h2>El Newsletter Sin Razon Para Apuntarse</h2>
+
+    <p style="margin-top: 24px; color: rgba(255,255,255,0.7);">
+      Tienes un formulario de suscripcion activo, pero la propuesta es "contenido increible, exclusivo y gratuito", que es exactamente lo que dicen todos. Sin un recurso concreto que el visitante quiera descargar, pedir el email antes de aportar valor es pedirle un compromiso a cambio de nada tangible. El resultado es que muy pocos se apuntan, y los que lo hacen, lo olvidan.
+    </p>
+
+    <p style="margin-top: 24px; margin-bottom: 8px; font-size: 14px; font-weight: 600; color: var(--gold); letter-spacing: 1px; text-transform: uppercase;">Asi es el recorrido del visitante hoy:</p>
+
+    <div class="journey">
+      <div class="journey-step">
+        <div class="journey-circle">1</div>
+        <div class="journey-line"></div>
+        <div class="journey-content">
+          <div class="journey-label">Busqueda activa</div>
+          <div class="journey-desc">El prospecto busca "como declarar mis criptomonedas" o "asesoria fiscal crypto Espana" y llega a NonTaxes a traves de Google o LinkedIn.</div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-circle">2</div>
+        <div class="journey-line"></div>
+        <div class="journey-content">
+          <div class="journey-label">Exploracion</div>
+          <div class="journey-desc">Lee los servicios, revisa algun articulo del blog, ve que sois especialistas. Hay interes real.</div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-circle">3</div>
+        <div class="journey-line"></div>
+        <div class="journey-content">
+          <div class="journey-label">La duda</div>
+          <div class="journey-desc">No hay un paso intermedio que le de algo de valor inmediato antes de pedirle que contacte. Solo hay el formulario de newsletter generico o el formulario de contacto.</div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-circle">4</div>
+        <div class="journey-content">
+          <div class="journey-label">Se va</div>
+          <div class="journey-desc">Sin un motivo concreto para quedarse o dejar su email, cierra la pestana. No hay forma de volver a contactarle.</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="closing-line">Cada mes, decenas de personas con un problema fiscal real pasan por NonTaxes y se van sin dejar rastro.</p>
+  </div>
+</section>
+
+<!-- CARD 10: PROBLEM 2 -->
+<section class="card dark">
+  <div class="container">
+    <span class="section-label">Problema 2</span>
+    <h2>Contenido Que Genera Atencion Pero No La Captura</h2>
+
+    <p style="margin-top: 24px; color: rgba(255,255,255,0.7);">
+      Publicais articulos sobre los temas mas relevantes del momento: MiCA, responsabilidad de la IA, fiscalidad digital. Son exactamente los articulos que alguien con un problema real busca y lee. El problema es que ninguno de esos articulos termina con una propuesta concreta que convierta al lector en contacto.
+    </p>
+
+    <div class="support-cols">
+      <div class="support-item">
+        <h4>El lector llega al blog, no al embudo</h4>
+        <p>Un articulo sobre MiCA puede atraer a un empresario con criptoactivos que necesita asesoria urgente. Pero si ese articulo no termina con una CTA especifica ni ofrece un recurso descargable, el empresario lee, aprende y se va a buscar a quien le de el siguiente paso.</p>
+      </div>
+      <div class="support-item">
+        <h4>El blog es una fuente de trafico sin destino</h4>
+        <p>Todo el esfuerzo editorial que hay detras de esos articulos podria estar generando una lista de suscriptores cualificados cada mes. En este momento, no lo hace.</p>
+      </div>
+      <div class="support-item" style="grid-column: span 2;">
+        <h4>La autoridad no se transforma en relacion</h4>
+        <p>El contenido construye confianza, pero la confianza necesita un puente hacia la conversacion. Sin ese puente, el lector te recuerda como "ese articulo que lei" pero nunca llega a ser cliente.</p>
+      </div>
+    </div>
+
+    <p class="closing-line">El contenido ya existe. Solo le falta un sistema que lo conecte con el pipeline.</p>
+  </div>
+</section>
+
+<!-- CARD 11: PROBLEM 3 -->
+<section class="card dark">
+  <div class="container">
+    <span class="section-label">Problema 3</span>
+    <h2>Sin Sistema, Todo Depende Del Azar</h2>
+
+    <a class="url-tag" href="https://nontaxes.com/blog" target="_blank" rel="noopener">nontaxes.com/blog</a>
+
+    <p style="color: rgba(255,255,255,0.7); margin-bottom: 32px;">
+      Sin publicidad, sin pixeles de retargeting y sin analitica de comportamiento instalada, el crecimiento de NonTaxes depende de que el cliente ideal os encuentre por su cuenta. En un nicho donde la demanda esta creciendo rapido (la AEAT ha multiplicado sus requerimientos sobre crypto, MiCA esta en plena implementacion, y miles de inversores y empresas necesitan asesoria urgente), esa postura pasiva deja una ventana abierta para quien decida ir a buscar esa demanda de forma activa.
+    </p>
+
+    <div class="support-item" style="background: rgba(255,255,255,0.03); border: 1px solid var(--gold-border);">
+      <h4>Lo que deberia existir</h4>
+      <p style="color: rgba(255,255,255,0.6);">Un sistema de captacion que funcione en paralelo al trabajo diario: una pagina de captura con un recurso de alto valor, trafico dirigido a esa pagina, una secuencia de emails que nutre al suscriptor hasta que esta listo para consultar, y metricas que digan exactamente que esta funcionando y que no.</p>
+    </div>
+
+    <p class="closing-line">Quien llegue primero a esa demanda activa, se queda con los clientes.</p>
+  </div>
+</section>
+
+<!-- CARD 12: NUMBERS -->
+<section class="card dark">
+  <div class="container" style="text-align: left;">
+    <span class="section-label">Los Numeros</span>
+    <h2>Lo Que Representa Esa Perdida</h2>
+    <p class="numbers-intro" style="margin-top: 20px;">
+      En NonTaxes, con valores de consulta de 500 a 2.500 EUR y retainers anuales de 2.000 a 8.000 EUR, incluso mejoras pequenas en captacion tienen un impacto directo en los ingresos. Todos los supuestos estan basados en referencias conservadoras del sector.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-block">
+        <div class="stat-number">500+</div>
+        <div class="stat-label-text">Busquedas mensuales</div>
+        <div class="stat-explain">Busquedas relacionadas con fiscalidad crypto en Espana cada mes. Sin captacion activa, la mayoria no llega a conocerte.</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-number">2-5%</div>
+        <div class="stat-label-text">Conversion sin lead magnet</div>
+        <div class="stat-explain">La gran mayoria de los visitantes actuales se van sin dejar ningun dato de contacto. El trafico se pierde.</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-number">30-40%</div>
+        <div class="stat-label-text">Conversion con lead magnet</div>
+        <div class="stat-explain">Con el recurso correcto y la pagina bien construida, uno de cada tres visitantes se convierte en contacto cualificado.</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-number">3.000€</div>
+        <div class="stat-label-text">Valor conservador de un cliente</div>
+        <div class="stat-explain">Consulta inicial mas asesoria continuada. Un solo cliente nuevo al mes cubre con creces el coste del sistema completo.</div>
+      </div>
+    </div>
+
+    <p class="numbers-closing">Un solo cliente nuevo recuperado al mes a traves del sistema cubre con creces la inversion en construirlo y operarlo.</p>
+  </div>
+</section>
+
+<!-- CARD 13: LEAD MAGNETS -->
+<section class="card white">
+  <div class="container">
+    <span class="section-label">Ideas de Lead Magnet</span>
+    <h2>Propuestas para NonTaxes</h2>
+    <p style="margin-top: 16px; color: var(--muted);">Cinco propuestas basadas en lo que NonTaxes ya tiene o podria crear sin esfuerzo adicional:</p>
+
+    <div class="magnets-list">
+      <div class="magnet-card featured">
+        <div class="magnet-badge">1</div>
+        <div>
+          <p class="magnet-name">"Calculadora de fiscalidad crypto: calcula lo que le debes a Hacienda por tus operaciones con criptoactivos"</p>
+          <p class="magnet-desc">Una herramienta interactiva que permite al usuario introducir sus operaciones y obtener una estimacion de su obligacion fiscal. Ataca directamente la pregunta mas frecuente de cualquier inversor en crypto. El usuario obtiene valor inmediato, NonTaxes obtiene un contacto con un problema activo y verificado. Este es el lead magnet sobre el que esta construida la pagina de ejemplo mas abajo.</p>
+        </div>
+      </div>
+      <div class="magnet-card">
+        <div class="magnet-badge">2</div>
+        <div>
+          <p class="magnet-name">"Guia MiCA 2025: lo que cambia para las empresas con criptoactivos en Espana y como prepararse"</p>
+          <p class="magnet-desc">Una guia practica dirigida a empresas que operan con criptoactivos y necesitan entender sus nuevas obligaciones bajo el reglamento MiCA. Alta relevancia en este momento, posiciona a NonTaxes como referencia en regulacion europea de activos digitales.</p>
+        </div>
+      </div>
+      <div class="magnet-card">
+        <div class="magnet-badge">3</div>
+        <div>
+          <p class="magnet-name">"Los 10 errores fiscales mas comunes al declarar criptomonedas en Espana"</p>
+          <p class="magnet-desc">Un checklist descargable que ayuda al inversor a identificar si esta cometiendo errores que le pueden costar dinero o sanciones de la AEAT. Facil de crear, muy compartible, atrae trafico cualificado con intencion de busqueda clara.</p>
+        </div>
+      </div>
+      <div class="magnet-card">
+        <div class="magnet-badge">4</div>
+        <div>
+          <p class="magnet-name">"Plantilla de registro de operaciones crypto para la Renta 2025-2026"</p>
+          <p class="magnet-desc">Una hoja de calculo lista para usar que permite al inversor llevar el registro correcto de sus operaciones durante el ano. Practica, especifica y util desde el primer dia.</p>
+        </div>
+      </div>
+      <div class="magnet-card">
+        <div class="magnet-badge">5</div>
+        <div>
+          <p class="magnet-name">"Mini-guia: Tokenizacion de activos reales, implicaciones fiscales y legales en Espana"</p>
+          <p class="magnet-desc">Un documento breve dirigido a empresas y promotores que estan explorando la tokenizacion de activos inmobiliarios, financieros o de otro tipo. Abre conversaciones con un perfil de cliente con tickets mas altos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 14: EXAMPLE PAGE -->
+<section class="card off">
+  <div class="container">
+    <span class="section-label">La Pagina de Ejemplo</span>
+    <h2>No Solo Encontramos El Problema</h2>
+    <p style="margin-top: 16px; font-size: 20px; font-style: italic; color: var(--dark-mid);">Ya construimos la solucion.</p>
+    <p style="margin-top: 16px;">Aqui esta una version ya construida de la pagina de captacion de NonTaxes, disenada alrededor del Lead Magnet 1: la Calculadora de Fiscalidad Crypto.</p>
+
+    <a class="example-card" href="https://danigdecelis.github.io/nontaxes-funnel/" target="_blank" rel="noopener">
+      <div class="example-preview">
+        <span class="preview-label">Herramienta gratuita para inversores</span>
+        <div class="preview-headline">Cuanto le debes a Hacienda<br>por tus criptomonedas</div>
+        <p class="preview-sub">La calculadora de fiscalidad crypto para estimar tu obligacion con la AEAT. Gratis, en menos de 5 minutos.</p>
+        <div class="preview-cta">Calcular Ahora, Gratis</div>
+      </div>
+      <div class="example-bar">
+        <span class="example-url">danigdecelis.github.io/nontaxes-funnel/</span>
+        <span class="example-cta-text">Ver Pagina en Vivo →</span>
+      </div>
+    </a>
+
+    <p style="margin-top: 36px; margin-bottom: 20px; font-size: 14px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 1px;">Que cambia:</p>
+    <div class="what-changed">
+      <div class="changed-item">
+        <div class="check-circle"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p>Mismo branding de NonTaxes</p>
+      </div>
+      <div class="changed-item">
+        <div class="check-circle"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p>Misma propuesta de valor</p>
+      </div>
+      <div class="changed-item">
+        <div class="check-circle"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p>Formulario con promesa concreta</p>
+      </div>
+      <div class="changed-item">
+        <div class="check-circle"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p>CTA que convierte visitantes en contactos</p>
+      </div>
+    </div>
+
+    <div class="funnel-flow" style="margin-top: 40px;">
+      <div class="flow-box">
+        <div class="flow-label">En lugar de</div>
+        Trafico a la homepage de NonTaxes sin siguiente paso claro
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box new-flow">
+        <div class="flow-label">Creamos</div>
+        Trafico a la calculadora, captura de email, secuencia de nurture, consulta cualificada
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 15: WHAT WE BUILD -->
+<section class="card white">
+  <div class="container">
+    <span class="section-label">El Sistema Completo</span>
+    <h2>Que Mas Construiriamos</h2>
+
+    <div class="builds-list">
+      <div class="build-item">
+        <div class="build-header">
+          <div class="build-num">1</div>
+          <div class="build-title">Secuencia de Email Nurture: 6 Emails en 60 Dias</div>
+        </div>
+        <div class="build-body">
+          <div class="build-point"><div class="build-dot"></div><p>Email 1: Entrega la calculadora con instrucciones claras para usarla correctamente en la Renta.</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Email 2: "3 errores que le cuestan dinero a los inversores en crypto cuando declaran sus operaciones a Hacienda."</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Email 3: Caso practico: como ayudamos a un autonomo con operaciones en crypto a ordenar su situacion fiscal antes de la campana de renta.</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Email 4: "Crees que Hacienda no rastrea las criptos? Esto es lo que la AEAT esta haciendo ahora mismo."</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Email 5: "Tienes tus operaciones registradas correctamente? Aqui te explicamos como comprobarlo en 10 minutos."</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Email 6: "Todavia estas a tiempo de planificar antes de que llegue la Renta 2025-2026. Esto es lo que puedes hacer ahora."</p></div>
+        </div>
+      </div>
+
+      <div class="build-item">
+        <div class="build-header">
+          <div class="build-num">2</div>
+          <div class="build-title">Maquina de Contenido SEO</div>
+        </div>
+        <div class="build-body">
+          <div class="build-point"><div class="build-dot"></div><p>Cuatro articulos al mes optimizados para busquedas de alta intencion relacionadas con fiscalidad crypto.</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Cada articulo termina con una CTA directa a la calculadora o al formulario de consulta.</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Distribucion en LinkedIn y redes sociales con adaptacion de formato.</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Calendario editorial basado en hitos regulatorios: campanas de renta, plazos de MiCA, novedades de la AEAT.</p></div>
+        </div>
+      </div>
+
+      <div class="build-item">
+        <div class="build-header">
+          <div class="build-num">3</div>
+          <div class="build-title">Sistema de Consulta Cualificada</div>
+        </div>
+        <div class="build-body">
+          <div class="build-point"><div class="build-dot"></div><p>Formulario de pre-consulta con preguntas de calificacion (tipo de operaciones, volumen aproximado, urgencia).</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Calendario de reserva integrado directamente en la web.</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Email automatico de confirmacion con materiales de preparacion para la sesion.</p></div>
+          <div class="build-point"><div class="build-dot"></div><p>Seguimiento estructurado de prospectos desde el primer contacto hasta el cierre.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 16: GUARANTEE -->
+<section class="card off">
+  <div class="container">
+    <span class="section-label">Nuestra Oferta y Garantia</span>
+    <h2>Asi Es Como Funciona</h2>
+
+    <div class="guarantee-box" style="margin-top: 40px;">
+      <p class="guarantee-statement">Sistema completo funcionando en 30 dias y generando leads cualificados en 60. Si no lo conseguimos, seguimos trabajando sin coste hasta que lo hagamos.</p>
+    </div>
+
+    <p style="margin-bottom: 28px; font-size: 14px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 1px;">Aqui esta exactamente como funciona:</p>
+
+    <div class="steps-list">
+      <div class="guarantee-step">
+        <div class="step-num-circle">1</div>
+        <div>
+          <div class="step-who">Los Dos</div>
+          <div class="step-title">Primera Llamada de Planificacion</div>
+          <div class="step-desc">Planificamos el sistema completo juntos. Arranque en 7 a 10 dias habiles.</div>
+        </div>
+      </div>
+      <div class="guarantee-step alt">
+        <div class="step-num-circle">2</div>
+        <div>
+          <div class="step-who">Tu</div>
+          <div class="step-title">Compartes Los Accesos</div>
+          <div class="step-desc">Backend de WordPress, plataforma de email y assets de marca.</div>
+        </div>
+      </div>
+      <div class="guarantee-step">
+        <div class="step-num-circle">3</div>
+        <div>
+          <div class="step-who">Nosotros (hecho para ti)</div>
+          <div class="step-title">Pagina de Captacion Live</div>
+          <div class="step-desc">Ya construida. Live en danigdecelis.github.io/nontaxes-funnel/</div>
+        </div>
+      </div>
+      <div class="guarantee-step alt">
+        <div class="step-num-circle">4</div>
+        <div>
+          <div class="step-who">Nosotros (hecho para ti)</div>
+          <div class="step-title">Secuencia de Nurture Cargada</div>
+          <div class="step-desc">6 emails cargados en tu plataforma de email listos para activar.</div>
+        </div>
+      </div>
+      <div class="guarantee-step">
+        <div class="step-num-circle">5</div>
+        <div>
+          <div class="step-who">Nosotros (hecho para ti)</div>
+          <div class="step-title">Sistema de Consulta Integrado</div>
+          <div class="step-desc">Formulario de calificacion y calendario de reserva conectados a la web.</div>
+        </div>
+      </div>
+      <div class="guarantee-step alt">
+        <div class="step-num-circle">6</div>
+        <div>
+          <div class="step-who">Nosotros (hecho para ti)</div>
+          <div class="step-title">Maquina de Contenido SEO Activada</div>
+          <div class="step-desc">Primeros articulos publicados y distribuidos con CTAs conectadas al embudo.</div>
+        </div>
+      </div>
+      <div class="guarantee-step">
+        <div class="step-num-circle">7</div>
+        <div>
+          <div class="step-who">Nosotros (hecho para ti)</div>
+          <div class="step-title">Todo Listo Para Generar Leads</div>
+          <div class="step-desc">Cero trabajo adicional de tu parte. El sistema trabaja mientras tu te dedicas a los clientes.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="guarantee-box" style="margin-top: 40px; margin-bottom: 0;">
+      <p class="guarantee-statement">Sistema completo funcionando en 30 dias y generando leads cualificados en 60. Si no lo conseguimos, seguimos trabajando sin coste hasta que lo hagamos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 17: CTA -->
+<section class="card dark cta-section">
+  <div class="container" style="text-align: center;">
+    <span class="section-label">Siguiente Paso</span>
+    <h2>Listo Para Dar El Siguiente Paso?</h2>
+
+    <div class="cta-options">
+      <div class="cta-option">
+        <div class="cta-icon">📧</div>
+        <div class="cta-option-title">Responde Directamente A Este Mensaje</div>
+        <div class="cta-option-desc">Contesta al mensaje con el que te envie este documento y empezamos la conversacion de inmediato.</div>
+      </div>
+      <div class="cta-divider">O</div>
+      <div class="cta-option">
+        <div class="cta-icon">📅</div>
+        <div class="cta-option-title">Reserva Una Llamada</div>
+        <div class="cta-option-desc">15 minutos para ver si tiene sentido trabajar juntos.</div>
+        <button class="cta-calendly-btn" onclick="Calendly.initPopupWidget({url:'https://calendly.com/danigdecelis/meeting'});return false;">Reservar Llamada</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 18: FAQ -->
+<section class="card white">
+  <div class="container">
+    <span class="section-label">Preguntas Frecuentes</span>
+    <h2>Tus Dudas, Respondidas</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Esto esta hecho para mi o tengo que hacerlo yo?</span>
+          <span class="faq-arrow">▾</span>
+        </button>
+        <div class="faq-a">Todo lo construimos nosotros. Tu revisas, apruebas y lo ponemos en marcha. Sin trabajo tecnico de tu parte.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Que incluye exactamente el engagement?</span>
+          <span class="faq-arrow">▾</span>
+        </button>
+        <div class="faq-a">Pagina de captacion con la calculadora de fiscalidad crypto, secuencia de 6 emails de nurture cargada en tu plataforma, sistema de consulta cualificada con formulario y calendario, y los primeros articulos SEO publicados y distribuidos.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Cuanto tarda en arrancar?</span>
+          <span class="faq-arrow">▾</span>
+        </button>
+        <div class="faq-a">Kickoff en 7 a 10 dias habiles desde nuestra primera llamada.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Que necesitas de mi parte?</span>
+          <span class="faq-arrow">▾</span>
+        </button>
+        <div class="faq-a">Acceso al backend de tu web, a la plataforma de email y los assets de marca (logo, paleta de colores, fotografias si las hay).</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Cuanto cuesta?</span>
+          <span class="faq-arrow">▾</span>
+        </button>
+        <div class="faq-a">Hablamos de la inversion en la llamada. La pagina de ejemplo ya esta construida y es tuya independientemente de lo que decidas.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Cual es la garantia?</span>
+          <span class="faq-arrow">▾</span>
+        </button>
+        <div class="faq-a">Sistema completo funcionando en 30 dias y generando leads cualificados en 60. Si no lo conseguimos, seguimos trabajando sin coste hasta que lo hagamos.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 19: ABOUT -->
+<section class="card off">
+  <div class="container">
+    <span class="section-label">Quien Hay Detras</span>
+    <h2>Sobre Daniel</h2>
+
+    <div class="about-card">
+      <img class="about-photo" src="https://danigdecelis.github.io/factor-rh-strategy/daniel-photo.png" alt="Daniel Garcia de Celis">
+      <div>
+        <div class="about-name">Daniel Garcia de Celis</div>
+        <div class="about-title-text">Fundador, Copy Estratega</div>
+        <div class="about-contact"><a href="mailto:daniel.gdecelis@gmail.com">daniel.gdecelis@gmail.com</a></div>
+        <p class="about-bio">Abogado de formacion con experiencia en proyectos juridicos y en el entorno crypto y blockchain. Fundador de Copy Estratega, donde trabajo con consultores, asesores y expertos que ya tienen la metodologia y los resultados, pero que todavia no tienen el sistema digital que convierte esa autoridad en clientes nuevos de forma predecible. Entiendo el sector desde dentro, lo que me permite construir sistemas de captacion que hablan el idioma correcto a la audiencia correcta.</p>
+        <p style="margin-top: 12px; font-size: 13px; color: var(--muted);">Copy Estratega trabaja con consultores y expertos que ya tienen la metodologia, los resultados y la autoridad, pero todavia no tienen el sistema digital que convierte eso en clientes nuevos de forma predecible.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 20: FINAL CTA -->
+<section class="card dark cta-section">
+  <div class="container" style="text-align: center;">
+    <span class="section-label">Empecemos</span>
+    <h2>Empecemos</h2>
+
+    <div class="cta-options">
+      <div class="cta-option">
+        <div class="cta-icon">📧</div>
+        <div class="cta-option-title">Responde Directamente A Este Mensaje</div>
+        <div class="cta-option-desc">Contesta al mensaje con el que te envie este documento y empezamos de inmediato.</div>
+      </div>
+      <div class="cta-divider">O</div>
+      <div class="cta-option">
+        <div class="cta-icon">📅</div>
+        <div class="cta-option-title">Reserva Una Llamada</div>
+        <div class="cta-option-desc">15 minutos para ver si tiene sentido trabajar juntos.</div>
+        <button class="cta-calendly-btn" onclick="Calendly.initPopupWidget({url:'https://calendly.com/danigdecelis/meeting'});return false;">Reservar Llamada</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <img src="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png" alt="Copy Estratega">
+  <p>2026 Copy Estratega. Todos los derechos reservados.</p>
+</footer>
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+<script>
+  // FAQ toggle
+  function toggleFaq(btn) {
+    var item = btn.closest('.faq-item');
+    item.classList.toggle('open');
+  }
+
+  // Open first FAQ by default
+  document.addEventListener('DOMContentLoaded', function() {
+    var first = document.querySelector('.faq-item');
+    if (first) first.classList.add('open');
+  });
+</script>
+
+<!-- TRACKING: fires ONLY when ?r=1 is present (prospect link) -->
+<script>if(!sessionStorage.getItem("_t")){sessionStorage.setItem("_t","1");var _u=encodeURIComponent(navigator.userAgent);var _l=navigator.language;var _r=new URLSearchParams(window.location.search).get('r')||'';fetch("https://script.google.com/macros/s/AKfycbwC8v4oAIgA7j9OfOMxjVQ1OkfB4cBHiRLPknvz1rBFwaW8bBnYJpzBtuSHnKAyIUr6IQ/exec?prospect=Iv%C3%A1n+Lim%C3%B3n&page=nontaxes-strategy&ua="+_u+"&lang="+_l+"&r="+_r)}</script>
+
+</body>
+</html>
